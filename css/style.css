@@ -1,0 +1,38 @@
+header {
+  background-color: #820ad1;
+  height: 20vh;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+main {
+  background-color: #ffffff;
+  height: 80vh;
+}
+#header-icones {
+  padding-top: 6vh;
+  height: 7vh;
+  align-items: center;
+  display: flex;
+
+}
+#header-icones-esquerda {
+  flex: 1;
+}
+.header-icone-esquerda {
+}
+#header-icones-direita {
+  flex: 1;
+  justify-content: flex-end;
+  display: flex;
+}
+.header-icone-direita {
+}
+#header-nome {
+  clear: both; /* limpa ambos os lados para nenhum elemento flutuar*/
+  height: 7vh;
+  align-items: center;
+  display: flex;
+  color: #ffffff;
+}
