@@ -1,27 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nuuhhbank</title>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nubank</title>
     <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
     <header>
-      <div id="header-icones">
-        <div id="header-icones-esquerda">
-          <a href="#" class="header-icone-esquerda">O</a>
+        <div id="header-icones">
+            <div id="header-icones-esquerda">
+                <a href="#" class="header-icone-esquerda">
+                    <i class="fa-regular fa-user"></i>
+                </a>
+            </div>
+            <div id="header-icones-direita">
+                <a href="#" class="header-icone-direita">
+                    <i class="fa-regular fa-eye"></i>
+                </a>
+                <a href="#" class="header-icone-direita">
+                    <i class="fa-regular fa-circle-question"></i>
+                </a>
+                <a href="#" class="header-icone-direita">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+            </div>
         </div>
-        <div id="header-icones-direita">
-          <a href="#" class="header-icone-direita">Z</a>
-          <a href="#" class="header-icone-direita">P</a>
-          <a href="#" class="header-icone-direita">M</a>
+        <div id="header-nome">
+            <strong>Olá, Gabriela!</strong>
         </div>
-      </div>
-      <div id="header-nome">
-        <strong>Olá, Gabriela!</strong>
-      </div>
     </header>
-    <main></main>
-  </body>
+    <main>
+        <div id="conta">
+            <div id="conta-nome">
+                <h3>Conta</h3>
+            </div>
+            <div id="conta-icone-direita">
+                <a href="#">
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+            </div>
+        </div>
+        <div id="conta-saldo">
+            <strong>R$ 800,25</strong>
+        </div>
+        <div id="pagamentos">
+            <div id="pix">
+                <div id="pix-icone">
+                    <a href="#">
+                        <i class="fa-brands fa-pix"></i>
+                    </a>
+                </div>
+                <div id="pix-nome">
+                    <p>Pix</p>
+                </div>
+            </div>
+            <div id="pix">
+                <div id="pix-icone">
+                    <a href="#">
+                        <i class="fa-solid fa-barcode"></i>
+                    </a>
+                </div>
+                <div id="pix-nome">
+                    <p>Pagar</p>
+                </div>
+            </div>
+            <div id="pix">
+                <div id="pix-icone">
+                    <a href="#">
+                        <i class="fa-solid fa-money-bill-transfer"></i>
+                    </a>
+                </div>
+                <div id="pix-nome">
+                    <p>Trasferir</p>
+                </div>
+            </div>
+            <div id="pix">
+                <div id="pix-icone">
+                    <a href="#">
+                        <i class="fa-solid fa-money-bill"></i>
+                    </a>
+                </div>
+                <div id="pix-nome">
+                    <p>Deposito</p>
+                </div>
+            </div>
+            <div id="pix">
+                <div id="pix-icone">
+                    <a href="#">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                    </a>
+                </div>
+                <div id="pix-nome">
+                    <p>Pegar emprestado</p>
+                </div>
+            </div>
+            <div id="pix">
+                <div id="pix-icone">
+                    <a href="#">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </a>
+                </div>
+                <div id="pix-nome">
+                    <p>Recarga de telefone</p>
+                </div>
+            </div>
+        </div>
+        <div id="cartoes">
+            <div id="cartoes-container">
+                <a href="#">
+                    <i class="fa-solid fa-credit-card"></i>
+                </a>
+                <p>
+                    Meus cartões
+                </p>
+            </div>
+        </div>
+        <div id="ad">
+            <div id="ad-block">
+                <p>
+                    E você, o que vai fazer com seu <strong>Pedacinho</strong>? Decida agora!
+                </p>
+            </div>
+            <div id="ad-block">
+                <p>
+                    Saiba manter sua conta Nubank sempre protegida
+                </p>
+            </div>
+            <div id="ad-block">
+                <p>
+                    <strong>Central de Proteção</strong>: 5 camadas extras de segurança para você
+                </p>
+            </div>
+        </div>
+        <div id="fatura">
+            <div id="fatura-nome">
+                <h3>Cartão de crédito</h3>
+            </div>
+            <div id="fatura-icone-direita">
+                <a href="#">
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+            </div>
+        </div>
+        <div id="fatura-saldo">
+            <p>Fatura atual</p>
+            <strong>R$ 680,40</strong>
+        </div>
+        <div id="fatura">
+            <div id="fatura-nome">
+                <h3>Empréstimo</h3>
+            </div>
+            <div id="fatura-icone-direita">
+                <a href="#">
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+            </div>
+        </div>
+        <div id="fatura-saldo">
+            <p>Valor disponível de até</p>
+            <strong>R$ 2.000,00</strong>
+        </div>
+    </main>    
+    <footer>    
+        <a href="#">
+            <i class="fa-solid fa-right-left"></i>
+        </a>
+        <a href="#">
+            <i class="fa-solid fa-dollar-sign"></i>
+        </a>
+        <a href="#">
+            <i class="fa-solid fa-bag-shopping"></i>
+        </a>
+    </footer>
+</body>
 </html>
